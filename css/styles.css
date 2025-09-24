@@ -1,0 +1,24 @@
+ul, li {
+  list-style: none;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+  margin: 0 auto;  
+  padding: 0;
+  max-width: 1200px;
+}
+
+.gallery-image {
+  object-fit: cover;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.gallery-image:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
